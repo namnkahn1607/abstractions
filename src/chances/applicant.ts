@@ -1,4 +1,4 @@
-export class Applicant {
+class Applicant {
     constructor(
         public readonly id: number,
         private readonly skillRate: number = 100 * Math.random(),
@@ -13,3 +13,5 @@ export class Applicant {
         return this.luckRate;
     }
 }
+
+export { Applicant };

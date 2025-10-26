@@ -1,3 +1,5 @@
+// a MaxPQ might not be the most efficient ADT to solve this.
+
 import { Applicant } from "./applicant";
 import { MaxPriorityQueue } from "datastructures-js";
 
