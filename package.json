@@ -1,0 +1,23 @@
+{
+    "name": "abstraction",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "test": "vitest"
+    },
+    "devDependencies": {
+        "@types/lodash": "^4.17.20",
+        "prettier": "^3.3.1",
+        "typescript": "^5.2.2",
+        "vite": "^7.1.12",
+        "vitest": "3.2.4"
+    },
+    "dependencies": {
+        "datastructures-js": "^13.0.0",
+        "lodash": "^4.17.21"
+    }
+}
